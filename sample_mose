@@ -1,0 +1,43 @@
+# Declaring and initializing variables in Phyton
+
+#Strings
+jm = "John Mark"
+jn = "Jenalyn"
+bullet = "Dwayne"
+dm = "Deonilio"
+
+#Numerical values
+age = 19
+date = 24
+friends = 5
+
+print(jm)
+print(jn)
+print(bullet)
+print(dm)
+
+print(age)
+print(date)
+print(friends)
+
+# Arithmetic
+addition = 5 + 10
+subtraction = 50 - 22
+division = 100 / 5
+multiplication = 4 * 8
+modulus = 5 % 5
+
+print(addition)
+print(subtraction)
+print(division)
+print(multiplication)
+print(modulus)
+
+
+if addition > division:
+    print("Hello")
+
+elif modulus < multiplication:
+    print("Modulus")
+else:
+    print("Hi")
